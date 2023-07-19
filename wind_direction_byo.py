@@ -34,7 +34,7 @@ while True:
   wind_voltage =round(adc.value*3.3, 1)
   if not wind_voltage in voltsToDegree:
     print('unknown value '+ str(wind_voltage))
-    time.sleep(1)
+#    time.sleep(1)
   else:
     print('found '+ str(wind_voltage) + ' ' + str(voltsToDegree[wind_voltage]))
 
